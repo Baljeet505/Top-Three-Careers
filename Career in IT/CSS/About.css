@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Beau Rivage', cursive;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    padding: 78px 0px;
+    background-color: wheat;
+}
+.about img{
+    height: 420px;
+    width: 420px;
+    border-radius: 16px;
+    margin-top: 10%;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.about-text h5{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #f9004d;
+}
+.about-text p{
+    color: #191919;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-align: justify;
+    font-family: 'Pacifico', cursive;
+}
+button{
+    background: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+    transition: .4s;
+    font-family: 'Pacifico', cursive;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+    
+}
+.Back{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: -700px;
+    margin-left: -140px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}

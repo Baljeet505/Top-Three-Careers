@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+body{
+    background-image: url(/background.jpg);
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 25px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    border-radius: 16px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50%;
+}
+
+.title .container {
+    width: 100%;
+    height: 640px;
+    display: flex;
+    background-color: white;
+    padding: 8px;
+    margin-top: -50%;
+    margin-left: -20%;
+    border-radius: 18px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+.item1{
+    flex: 2;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+    background-color: orangered;
+    border-radius: 16px;
+    margin: 2px;
+    text-align: justify;
+}
+.item2{
+    flex: 2;
+    padding: 30px;
+    background-color: lightblue;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+    border-radius: 16px;
+    margin: 2px;
+}
+.item3{
+    flex: 2;
+    padding: 30px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: brown;
+    border-radius: 16px;
+    margin: 2px;
+}
+.item1 .dp{
+    height: 30%;
+    width: 60%;
+    border-radius: 16px;
+    margin-top: -100px;
+}
+.item2 .dp{
+    height: 30%;
+    width: 60%;
+    border-radius: 16px;
+    margin-top: -100px;
+}
+.item3 .dp{
+    height: 30%;
+    width: 60%;
+    border-radius: 16px;
+    margin-top: -100px;
+}
+.IT{
+    background: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+    transition: .4s;
+    border-width: 5;
+}
+.IT:hover{
+    background: orange;
+    cursor: pointer;
+    color: black;
+}
+.item1 .Career{
+    font-size: 40px;
+}
+.item2 .Career{
+    font-size: 32px;
+}
+.item3 .Career{
+    font-size: 32px;
+}
+footer{
+    position: absolute;
+    bottom: -128%;
+    left: 0;
+    right: 0;
+    margin-top: 100;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: 'Baloo 2', cursive;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: tomato;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social li{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social a li{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.social a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: darkgray;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+
